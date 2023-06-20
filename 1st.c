@@ -1,3 +1,4 @@
+//code to see the usage of all the datatypes in C.
 #include<stdio.h>
 int main()
 {
