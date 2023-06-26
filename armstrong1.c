@@ -1,4 +1,4 @@
-//check whether the number enetered by user is armstrong or not.
+//check whether the number enetered by user is armstrong or not without using pow.
 
 #include<stdio.h>
 #include<math.h>
@@ -11,8 +11,7 @@ int main()
     while(n!=0)
     {
         r=n%10;
-        r=pow(r,3);
-        sum+=r;
+        sum+=r*r*r;
         n/=10;
     }
     if(sum==t)
